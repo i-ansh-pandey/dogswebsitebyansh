@@ -1,0 +1,77 @@
+<!-- Starts Here-Creating a DOG Website -->
+<!--Inside the body tag, The most imporatnt tags are - header(Header  of website), main(Main Content of website), nav(Navigation through website), footer(Footer of website)-->
+
+
+
+
+<!--This is BOILER PLAIT in HTML (This is the actual format of any HTML projects, By using this form we met the requirement of live server, so we do not to refress the browser by ownself, it will refress automatically.)-->
+
+
+
+<!DOCTYPE html>       <!--Used DOCTYPE Tags with html attribute-->
+<html lang="en">      
+<head>
+    <meta charset="UTF-8">       <!--Used meta tag with charset(Character set) attribute-->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">         <!--Used meta tag with name, and content attribute-->
+    <link rel="stylesheet", href="styles.css"/>      <!--This is link tag with rel(relationship) and href(hyper link refference) attribute, used for linking the HTML to CSS file-->
+    <title>Dogs Galore</title>         <!--This is title tag, used for Title of the website.-->
+</head>       <!--This is head (Header) tag with 3 children tags, they are meta, link, and title tag-->
+<body>
+
+    <header>
+        <h1> A DOG's Website </h1> <!--Used a header 1 or h1 tag-->
+        
+        <nav style="color: blue;  background: yellow">
+            <a href="#Footer">Footer</a>  
+            <a href="#Dog Breed">Dog Breed</a>
+            <a href="#Search Box">Search Box</a>
+        </nav>     <!--This nav tag with style attribute, (Used for navigation through website)-->
+    
+    </header>     <!--This a header Tag (Used for header of the website). Here it has 2 children tag that are p(Paragraph) tag and nav(Navigation) tag-->
+
+    <main>
+        <section>
+            <h2>Everything you should know about dogs!</h2> <!--Used a header 2 or h2 tag-->
+            <p class="paragraph header">Dogs are my favourite animal in this world, that's why i am creating this website to tell everything about a dog. Thank you</p> <!--Used a paragraph or p-tag with class and src(source) and alt(alternative text) attributes-->
+        </section>     <!--This is section tag, It is a container tag.-->  
+        
+        
+        <section>
+            <div id="First-Div">
+                <img style="width: 90%" , src="https://img.freepik.com/free-photo/funny-image-with-dog_23-2151179445.jpg?semt=ais_hybrid" 
+                alt="a-dog's-profile"/>   <!--Used Image(img)-Tag with style, src(Source), and alt attributes-->
+                <br>   <!--This br(Break) Tag-->
+            </div> <!--This div(Division) Tag with id attribute, It is a container tag, Here It has 2 Children Tag = img and br - tag-->
+        
+            <a href="https://www.pexels.com/search/dog/"  target="_blank">Click here to get more dog images</a> <!-- Used a(Anchor)-Tag with href(hyper text refference) and target - attributes -->
+        
+            <form>
+                <label>
+                    <p id="Dog Breed">Dog Breed</p>
+                    <input id="Search Box", style="width: 280px", placeholder="Enter the name of your favourite Dog Breed..."/>    <!--This is input tag with id, style, and placeholder attributes-->
+        
+                </label>      <!--This is label-tag-->
+        
+                <button>
+                    <p>Submit</p>
+                </button>     <!--This is button - tag-->
+            </form>      <!--This is form-tag, It is also a container tag-->
+        </section>
+
+        <br/>  <br/> <br/>
+            <a class="linkedin" href="https://www.linkedin.com/in/i-ansh-pandey/"><p>"Created by Ansh Pandey"</p></a>
+        <br/>  <br/> <br/> <br/> <br/>
+    </main>     <!--This is main tag (Used for main content), here it has children tags, that are-->
+
+    <footer id="Footer">Copyright 2025</footer>    <!--This is footer tag with id attribute, (Used for footer of the website)-->
+
+</body>        <!--This is body tag, with 1 children tags, that is section tag , It is a container tag. All the content that the audience see on screen in a website, It is under this body tag.-->
+</html>        <!--This is html tag with lang(Language) attribute and 2 children tag, they are head, and body tags.-->
+
+
+
+
+
+
+
+
